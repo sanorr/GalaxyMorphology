@@ -13,7 +13,7 @@ The models use **transfer learning** with architectures such as **ResNet50** and
 ## Project Overview
 
 Modern sky surveys like the **SDSS** produce millions of galaxy images, making manual classification increasingly impractical.  
-This project builds an automated system capable of identifying morphological patterns—such as spiral arms, disks, bulges, and bars—directly from RGB galaxy images.
+This project builds an automated system that recognizes visual features present in RGB images of galaxies, such as spiral arms, disks, bulges, and bars, in order to classify each galaxy into its corresponding Hubble sequence class.
 
 The dataset used is **Galaxy Zoo 2**, which provides volunteer-generated morphological labels. Since the original categories do not follow the classical Hubble sequence, this project implements a **mapping step** to convert Galaxy Zoo 2 labels into standardized Hubble classes, ensuring consistency across all processed datasets. Furthermore, all required data is automatically downloaded by the provided scripts.
 
